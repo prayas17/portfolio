@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, follow" />
+  <title>404 — Page not found · Prayas Jain</title>
+  <meta name="description" content="The page you were looking for on Prayas Jain's portfolio doesn't exist. Head back to the homepage to see selected work." />
+  <link rel="canonical" href="https://prayas17.github.io/portfolio/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="theme-color" content="#C8331E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:wght@300..600&family=JetBrains+Mono:wght@300..500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #ECE6D6;
+      --bone: #15130E;
+      --bone-dim: #3A352B;
+      --ash: #7E7460;
+      --rule: #C8BFA8;
+      --flame: #C8331E;
+      --serif: 'Instrument Serif', 'Times New Roman', serif;
+      --sans: 'Bricolage Grotesque', system-ui, sans-serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--void);
+      color: var(--bone);
+      font-family: var(--sans);
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      padding: 40px 24px;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      pointer-events: none;
+      opacity: 0.32;
+      mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.075 0 0 0 0 0.055 0 0 0 0.55 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    }
+    main {
+      max-width: 720px;
+      text-align: center;
+      position: relative; z-index: 2;
+    }
+    .tag {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--flame);
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(80px, 18vw, 220px);
+      line-height: 0.9;
+      letter-spacing: -0.035em;
+      color: var(--bone);
+    }
+    h1 em { color: var(--flame); font-style: italic; }
+    p {
+      margin-top: 28px;
+      font-family: var(--serif);
+      font-size: clamp(20px, 2.4vw, 28px);
+      line-height: 1.45;
+      color: var(--bone-dim);
+    }
+    p em { color: var(--flame); font-style: italic; }
+    .actions {
+      margin-top: 48px;
+      display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;
+    }
+    .btn {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      padding: 16px 28px;
+      border-radius: 999px;
+      display: inline-flex; align-items: center; gap: 10px;
+      transition: all .3s cubic-bezier(.2,.8,.2,1);
+      text-decoration: none;
+    }
+    .btn.primary {
+      background: var(--flame);
+      color: var(--void);
+      border: 1px solid var(--flame);
+    }
+    .btn.primary:hover { background: var(--bone); border-color: var(--bone); }
+    .btn.ghost {
+      background: transparent;
+      color: var(--bone);
+      border: 1px solid var(--rule);
+    }
+    .btn.ghost:hover { border-color: var(--bone); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">Error · 404</div>
+    <h1>Lost in the <em>graph</em>.</h1>
+    <p>That page doesn't exist — or it shipped somewhere else. Let's get you back to the work.</p>
+    <div class="actions">
+      <a class="btn primary" href="/portfolio/">Back to portfolio →</a>
+      <a class="btn ghost" href="/portfolio/resume.html">View résumé ↗</a>
+    </div>
+  </main>
+</body>
+</html>

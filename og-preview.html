@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>OG Image Preview · Prayas Jain</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1A1714;
+      color: #ECE6D6;
+      font-family: ui-monospace, 'JetBrains Mono', monospace;
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 24px; padding: 40px 20px;
+    }
+    h1 {
+      font-size: 16px; font-weight: 400; letter-spacing: 0.15em; text-transform: uppercase;
+    }
+    .frame {
+      width: 1200px; max-width: 100%;
+      aspect-ratio: 1200 / 630;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+      background: url('og-image.svg') center/cover no-repeat;
+    }
+    p {
+      max-width: 1200px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      line-height: 1.6;
+      color: #A89E83;
+      text-align: center;
+    }
+    code {
+      background: rgba(255,255,255,0.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #ECE6D6;
+    }
+    .pill {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 999px;
+      color: #ECE6D6; text-decoration: none;
+      transition: all .2s;
+    }
+    .pill:hover { background: #C8331E; border-color: #C8331E; }
+  </style>
+</head>
+<body>
+  <h1>Open Graph image · 1200 × 630</h1>
+  <div class="frame"></div>
+  <p>
+    To generate <code>og-image.png</code> for social sharing:<br>
+    <strong>Option 1:</strong> Open <code>og-image.svg</code> in a browser, take a screenshot at 1200×630, save as <code>og-image.png</code>.<br>
+    <strong>Option 2:</strong> Use <a href="https://cloudconvert.com/svg-to-png" class="pill" target="_blank" rel="noopener">cloudconvert.com/svg-to-png</a> — set width to 1200, height to 630.<br>
+    <strong>Option 3:</strong> If you have Inkscape: <code>inkscape og-image.svg --export-type=png --export-width=1200</code>
+  </p>
+</body>
+</html>

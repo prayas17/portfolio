@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Prayas Jain — Lead AI Engineer">
+  <title>Prayas Jain</title>
+  <desc>Favicon mark — letter P with signal-red accent dot, matching the portfolio identity.</desc>
+
+  <!-- Paper background -->
+  <rect width="64" height="64" rx="14" ry="14" fill="#ECE6D6"/>
+
+  <!-- Subtle inner rule -->
+  <rect x="2" y="2" width="60" height="60" rx="12" ry="12" fill="none" stroke="#C8BFA8" stroke-width="1"/>
+
+  <!-- Serif P (mark) -->
+  <text x="14" y="50"
+        font-family="'Instrument Serif', 'Times New Roman', Georgia, serif"
+        font-size="52"
+        font-style="italic"
+        font-weight="400"
+        fill="#15130E">P</text>
+
+  <!-- Signal dot -->
+  <circle cx="46" cy="46" r="6" fill="#C8331E"/>
+</svg>
